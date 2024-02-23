@@ -17,7 +17,7 @@ const PostmanRequest = () => {
           )
         }
         id={"postman-request"}
-        value={request?.name}
+        value={request?.name || ""}
         className="font-semibold"
         type="text"
       />
